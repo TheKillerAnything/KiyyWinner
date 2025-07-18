@@ -6,8 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "node index.js",
-    "build-css": "tailwindcss -i ./public/style.css -o ./public/style.css --watch",
-      "vercel-build": "npm run build"
+    "build-css": "tailwindcss -i ./public/style.css -o ./public/style.css --watch"
   },
   "dependencies": {
     "archiver": "^7.0.1",
